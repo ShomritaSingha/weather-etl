@@ -7,7 +7,7 @@ def transformed_weather_data(raw_data):
     "longitude": raw_data["longitude"],
     "temperature": raw_data["current"]["temperature_2m"],
     "temperature_unit": raw_data["current_units"]["temperature_2m"],
-    "time": raw_data["current"]["time"],
+    "weather_time": raw_data["current"]["time"],
     "wind_speed": raw_data["current"]["wind_speed_10m"],
     "wind_speed_unit": raw_data["current_units"]["wind_speed_10m"]
 }
